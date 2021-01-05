@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Should Earl and His Team Hire You?</title>
+</head>
+<body>
+   <style>
+       body {
+        background-image: url('bodyBackground.jpg');
+       }
+       </style>
+   
+    <div class="container">
+        <div id="quiz-name" class="quiz-name">Should Earl and His Team Hire You?</div>
+        <img src="servicenow-logo.png" id="nameLogo" style="display: none;">
+
+        <div id="quiz-picture">
+            <img src="serviceNow.png" id="logo" style="display: inline;">
+        </div>
+
+
+        <div id="final-score-container" class="final-score hide">
+            <div id="final-score-counter">Final Score:</div>
+            <div id="final-score-header">Final Score Header</div>
+            <img src="cat.jpg" id="cat-meme" style="height:50%; width: 50%; object-fit: contain;">
+        </div>  
+        
+        
+        <div id="question-container" class="hide">
+            <div id="score-counter" class="score-counter">Score: 0</div>
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer1</button>
+                <button class="btn">Answer2</button>
+                <button class="btn">Answer3</button>
+                <button class="btn">Answer4</button>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide" class="next-btn btn hide">Next</button>
+            <button id="finish-btn" class="finish-btn btn hide" class="finish-btn btn hide">Finish</button>
+        </div> 
+    </div>
+</body>
+</html>
